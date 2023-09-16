@@ -23,3 +23,17 @@ int main()
     }
     cout<<count<<endl;
 }
+
+// ALTERNATE WAY
+
+/*
+while(n>0)
+    {
+        bit=n%2;
+        if(bit==1)
+        {
+            count++;
+        }
+        n=n/2;
+    }
+*/
